@@ -6,12 +6,22 @@ An educational implementation of real-time log analytics using the Space-Saving 
 
 ## Educational Purpose
 
-This project is designed to bridge the gap between **theoretical computer science** and **practical software engineering**. It implements a production-style log analytics system based on real-world scenarios, but with a focus on learning and understanding fundamental algorithms.
+This project demonstrates how **theoretical computer science** enables **practical systems** that are both **efficient** and **provably correct**. We implement the Space-Saving algorithm not just as code, but as a vehicle for understanding deep algorithmic principles.
 
-### Real-World Context
-- **Problem**: Monitoring high-volume API traffic with limited resources
-- **Real Solution**: Streaming algorithms used by companies like Google, Netflix, Cloudflare
-- **Educational Focus**: Understanding the theory behind these solutions
+
+## Learning Objectives
+
+After studying this implementation, you should understand:
+
+- **Streaming Algorithm Design:** How to process infinite data with finite memory
+
+- **Theoretical Analysis:** Proving bounds on approximation error
+
+- **Practical Trade-offs:** When to choose approximation over exact solutions
+
+- **System Integration:** Embedding algorithms in production environments
+
+<hr>
 
 # Run the service
 python -m uvicorn logflow-skecher.src.main:app --reload --port 8000 
